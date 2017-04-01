@@ -4,3 +4,10 @@ https://leetcode.com/problems/reverse-bits/
 https://leetcode.com/problems/power-of-two/
 https://leetcode.com/problems/fizz-buzz/
 https://leetcode.com/problems/majority-element/
+https://leetcode.com/problems/two-sum/
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+https://leetcode.com/problems/remove-element/
+https://leetcode.com/problems/plus-one/
+https://leetcode.com/problems/third-maximum-number/
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+https://leetcode.com/problems/move-zeroes/

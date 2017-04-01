@@ -12,6 +12,7 @@ if [ ! -d src/$src_dir ]; then
  touch src/$src_dir/solution.cpp
  echo $percentile >> src/$src_dir/percentile
  echo "`echo $LINE | awk -F "@@" '{print $2}'`" >> data/solved_problems.txt
+ gvim src/$src_dir/solution.cpp
 fi
 
 done < $new_submissions

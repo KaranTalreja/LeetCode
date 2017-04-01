@@ -1,7 +1,7 @@
 #!/bin/bash
 
 links=$1
-INDEX_FILE="html/index.html"
+INDEX_FILE="html/index.md"
 rm $INDEX_FILE
 touch $INDEX_FILE
 echo "<!DOCTYPE html>" >> $INDEX_FILE

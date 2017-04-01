@@ -11,3 +11,13 @@ https://leetcode.com/problems/plus-one/
 https://leetcode.com/problems/third-maximum-number/
 https://leetcode.com/problems/kth-largest-element-in-an-array/
 https://leetcode.com/problems/move-zeroes/
+https://leetcode.com/problems/max-consecutive-ones/
+https://leetcode.com/problems/rotate-array/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+https://leetcode.com/problems/merge-sorted-array/
+https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+https://leetcode.com/problems/contains-duplicate/
+https://leetcode.com/problems/contains-duplicate-ii/
+https://leetcode.com/problems/game-of-life/
+https://leetcode.com/problems/triangle/
+https://leetcode.com/problems/find-all-duplicates-in-an-array/

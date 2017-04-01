@@ -21,7 +21,7 @@ let id++
 echo "  <tr>">> $INDEX_FILE
 echo "    <td>$id</td>">> $INDEX_FILE
 echo "    <td><p><a href=\"$LINE\">$src_dir</a></td>">> $INDEX_FILE
-echo "    <td>`cat src/$src_dir/percentile`%</td>">> $INDEX_FILE  
+echo "    <td><a href=\"https://github.com/KaranTalreja/LeetCode/blob/master/src/$src_dir/solution.cpp\">`cat src/$src_dir/percentile`%</a></td>">> $INDEX_FILE  
 echo "  </tr>">> $INDEX_FILE
 
 done < $1

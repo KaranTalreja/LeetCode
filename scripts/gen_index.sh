@@ -7,11 +7,6 @@ touch $INDEX_FILE
 echo "<!DOCTYPE html>" >> $INDEX_FILE
 echo "<html>" >> $INDEX_FILE
 echo "<body>">> $INDEX_FILE
-echo "<style>">> $INDEX_FILE
-echo "table, th, td {">> $INDEX_FILE
-echo "    border: 1px solid black;">> $INDEX_FILE
-echo "}">> $INDEX_FILE
-echo "</style>">> $INDEX_FILE
 echo "<table style=\"width:100%\"> ">> $INDEX_FILE
 echo "  <tr> ">> $INDEX_FILE
 echo "    <th>Id</th>">> $INDEX_FILE

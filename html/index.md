@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-<style>
-table, th, td {
-    border: 1px solid black;
-}
-</style>
 <table style="width:100%"> 
   <tr> 
     <th>Id</th>
@@ -186,6 +181,56 @@ table, th, td {
     <td>35</td>
     <td><p><a href="https://leetcode.com/problems/3sum/">3sum</a></td>
     <td>89.08%</td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td><p><a href="https://leetcode.com/problems/3sum-closest/">3sum-closest</a></td>
+    <td>32.29%</td>
+  </tr>
+  <tr>
+    <td>37</td>
+    <td><p><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">find-minimum-in-rotated-sorted-array</a></td>
+    <td>36.74%</td>
+  </tr>
+  <tr>
+    <td>38</td>
+    <td><p><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">search-in-rotated-sorted-array</a></td>
+    <td>50.65%</td>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-level-order-traversal-ii/">binary-tree-level-order-traversal-ii</a></td>
+    <td>28.54%</td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-paths/">binary-tree-paths</a></td>
+    <td>33.42%</td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td><p><a href="https://leetcode.com/problems/sum-of-left-leaves/">sum-of-left-leaves</a></td>
+    <td>14.22%</td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td><p><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">maximum-depth-of-binary-tree</a></td>
+    <td>38.46%</td>
+  </tr>
+  <tr>
+    <td>43</td>
+    <td><p><a href="https://leetcode.com/problems/balanced-binary-tree/">balanced-binary-tree</a></td>
+    <td>42.83%</td>
+  </tr>
+  <tr>
+    <td>44</td>
+    <td><p><a href="https://leetcode.com/problems/path-sum-iii/">path-sum-iii</a></td>
+    <td>48.78%</td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td><p><a href="https://leetcode.com/problems/path-sum/">path-sum</a></td>
+    <td>20.44%</td>
   </tr>
 </table>
 </body>

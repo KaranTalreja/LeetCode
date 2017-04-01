@@ -33,3 +33,13 @@ https://leetcode.com/problems/minimum-size-subarray-sum/
 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 https://leetcode.com/problems/maximum-product-subarray/
 https://leetcode.com/problems/3sum/
+https://leetcode.com/problems/3sum-closest/
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+https://leetcode.com/problems/binary-tree-paths/
+https://leetcode.com/problems/sum-of-left-leaves/
+https://leetcode.com/problems/maximum-depth-of-binary-tree/
+https://leetcode.com/problems/balanced-binary-tree/
+https://leetcode.com/problems/path-sum-iii/
+https://leetcode.com/problems/path-sum/

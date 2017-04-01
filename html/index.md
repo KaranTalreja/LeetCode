@@ -232,6 +232,101 @@
     <td><p><a href="https://leetcode.com/problems/path-sum/">path-sum</a></td>
     <td>20.44%</td>
   </tr>
+  <tr>
+    <td>46</td>
+    <td><p><a href="https://leetcode.com/problems/path-sum-ii/">path-sum-ii</a></td>
+    <td>11.48%</td>
+  </tr>
+  <tr>
+    <td>47</td>
+    <td><p><a href="https://leetcode.com/problems/find-mode-in-binary-search-tree/">find-mode-in-binary-search-tree</a></td>
+    <td>12.51%</td>
+  </tr>
+  <tr>
+    <td>48</td>
+    <td><p><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">lowest-common-ancestor-of-a-binary-search-tree</a></td>
+    <td>45.03%</td>
+  </tr>
+  <tr>
+    <td>49</td>
+    <td><p><a href="https://leetcode.com/problems/invert-binary-tree/">invert-binary-tree</a></td>
+    <td>3.32%</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-right-side-view/">binary-tree-right-side-view</a></td>
+    <td>27.62%</td>
+  </tr>
+  <tr>
+    <td>51</td>
+    <td><p><a href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node/">populating-next-right-pointers-in-each-node</a></td>
+    <td>40.61%</td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td><p><a href="https://leetcode.com/problems/valid-anagram/">valid-anagram</a></td>
+    <td>32.57%</td>
+  </tr>
+  <tr>
+    <td>53</td>
+    <td><p><a href="https://leetcode.com/problems/linked-list-cycle/">linked-list-cycle</a></td>
+    <td>44.72%</td>
+  </tr>
+  <tr>
+    <td>54</td>
+    <td><p><a href="https://leetcode.com/problems/symmetric-tree/">symmetric-tree</a></td>
+    <td>36.07%</td>
+  </tr>
+  <tr>
+    <td>55</td>
+    <td><p><a href="https://leetcode.com/problems/same-tree/">same-tree</a></td>
+    <td>1.99%</td>
+  </tr>
+  <tr>
+    <td>56</td>
+    <td><p><a href="https://leetcode.com/problems/unique-binary-search-trees/">unique-binary-search-trees</a></td>
+    <td>40.20%</td>
+  </tr>
+  <tr>
+    <td>57</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/">binary-tree-level-order-traversal</a></td>
+    <td>3.76%</td>
+  </tr>
+  <tr>
+    <td>58</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/">binary-tree-zigzag-level-order-traversal</a></td>
+    <td>39.90%</td>
+  </tr>
+  <tr>
+    <td>59</td>
+    <td><p><a href="https://leetcode.com/problems/find-largest-value-in-each-tree-row/">find-largest-value-in-each-tree-row</a></td>
+    <td>62.47%</td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-inorder-traversal/">binary-tree-inorder-traversal</a></td>
+    <td>3.10%</td>
+  </tr>
+  <tr>
+    <td>61</td>
+    <td><p><a href="https://leetcode.com/problems/validate-binary-search-tree/">validate-binary-search-tree</a></td>
+    <td>57.17%</td>
+  </tr>
+  <tr>
+    <td>62</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-postorder-traversal/">binary-tree-postorder-traversal</a></td>
+    <td>85.08%</td>
+  </tr>
+  <tr>
+    <td>63</td>
+    <td><p><a href="https://leetcode.com/problems/binary-tree-preorder-traversal/">binary-tree-preorder-traversal</a></td>
+    <td>3.14%</td>
+  </tr>
+  <tr>
+    <td>64</td>
+    <td><p><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">kth-smallest-element-in-a-bst</a></td>
+    <td>41.13%</td>
+  </tr>
 </table>
 </body>
 </html>

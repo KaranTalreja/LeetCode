@@ -85,7 +85,6 @@ echo "     }">> $INDEX_FILE
 echo "   }">> $INDEX_FILE
 echo " }">> $INDEX_FILE
 echo " </script>" >> $INDEX_FILE
-echo " <script>" >> $INDEX_FILE
 echo "</table>">> $INDEX_FILE
 echo "</body>">> $INDEX_FILE
 echo "</html>">> $INDEX_FILE

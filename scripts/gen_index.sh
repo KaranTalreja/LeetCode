@@ -1,7 +1,7 @@
 #!/bin/bash
 
 links=$1
-INDEX_FILE="html/index.md"
+INDEX_FILE="html/index.html"
 rm $INDEX_FILE
 touch $INDEX_FILE
 echo "<!DOCTYPE html>" >> $INDEX_FILE
@@ -84,7 +84,6 @@ echo "     }">> $INDEX_FILE
 echo "   }">> $INDEX_FILE
 echo " }">> $INDEX_FILE
 echo " </script>" >> $INDEX_FILE
-echo " <script>" >> $INDEX_FILE
 echo "</table>">> $INDEX_FILE
 echo "</body>">> $INDEX_FILE
 echo "</html>">> $INDEX_FILE

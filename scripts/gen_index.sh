@@ -1,13 +1,13 @@
 #!/bin/bash
 
 links=$1
-INDEX_FILE="html/index.md"
+INDEX_FILE="docs/index.html"
 rm $INDEX_FILE
 touch $INDEX_FILE
 echo "<!DOCTYPE html>" >> $INDEX_FILE
 echo "<html>" >> $INDEX_FILE
 echo "<body>">> $INDEX_FILE
-echo "<table id="myTable2" style=\"width:100%\"> ">> $INDEX_FILE
+echo "<table id="myTable2" style=\"width:100%\" border=1> ">> $INDEX_FILE
 echo "  <tr> ">> $INDEX_FILE
 echo "    <th onclick=\"sortTable(0)\">Id</th>">> $INDEX_FILE
 echo "    <th onclick=\"sortTable(1)\">Link</th>">> $INDEX_FILE

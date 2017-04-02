@@ -6,6 +6,16 @@ rm $INDEX_FILE
 touch $INDEX_FILE
 echo "<!DOCTYPE html>" >> $INDEX_FILE
 echo "<html>" >> $INDEX_FILE
+echo "  <head>" >> $INDEX_FILE
+echo "    <meta charset=\"UTF-8\">" >> $INDEX_FILE
+echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">" >> $INDEX_FILE
+
+echo "    <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/normalize.css\" media=\"screen\">" >> $INDEX_FILE
+
+echo "    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>" >> $INDEX_FILE
+echo "    <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/stylesheet.css\" media=\"screen\">" >> $INDEX_FILE
+echo "    <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/github-light.css\" media=\"screen\">" >> $INDEX_FILE
+echo "  </head>" >> $INDEX_FILE
 echo "<body>">> $INDEX_FILE
 echo " <style> table, th, td { border: 1px solid black; } </style> ">>$INDEX_FILE
 echo "<table id="myTable2" style=\"width:100%\" > ">> $INDEX_FILE

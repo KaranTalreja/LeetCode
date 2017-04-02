@@ -28,6 +28,8 @@ echo "    <td>$format<a href=\"https://github.com/KaranTalreja/LeetCode/blob/mas
 echo "  </tr>">> $INDEX_FILE
 
 done < $1
+echo "{::nomarkdown} ">>$INDEX_FILE
+
 echo " <script>" >> $INDEX_FILE
 echo " function sortTable(n) {">> $INDEX_FILE
 echo "   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;">> $INDEX_FILE
@@ -84,6 +86,7 @@ echo "     }">> $INDEX_FILE
 echo "   }">> $INDEX_FILE
 echo " }">> $INDEX_FILE
 echo " </script>" >> $INDEX_FILE
+echo "{:/} " >> $INDEX_FILE
 echo "</table>">> $INDEX_FILE
 echo "</body>">> $INDEX_FILE
 echo "</html>">> $INDEX_FILE

@@ -1,332 +1,389 @@
 <!DOCTYPE html>
 <html>
 <body>
-<table style="width:100%"> 
+<table id=myTable2 style="width:100%"> 
   <tr> 
-    <th>Id</th>
-    <th>Link</th>
-    <th>Percentile</th>
+    <th onclick="sortTable(0)">Id</th>
+    <th onclick="sortTable(1)">Link</th>
+    <th onclick="sortTable(2)">Percentile</th>
   </tr>
   <tr>
-    <td>1</td>
+    <td>001</td>
     <td><p><a href="https://leetcode.com/problems/hamming-distance/">hamming-distance</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/hamming-distance/solution.cpp">39.45%</a></td>
+    <td>39.45%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/hamming-distance/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>2</td>
+    <td>002</td>
     <td><p><a href="https://leetcode.com/problems/number-of-1-bits/">number-of-1-bits</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/number-of-1-bits/solution.cpp">36.18%</a></td>
+    <td>36.18%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/number-of-1-bits/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>3</td>
+    <td>003</td>
     <td><p><a href="https://leetcode.com/problems/reverse-bits/">reverse-bits</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/reverse-bits/solution.cpp">38.77%</a></td>
+    <td>38.77%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/reverse-bits/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>4</td>
+    <td>004</td>
     <td><p><a href="https://leetcode.com/problems/power-of-two/">power-of-two</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/power-of-two/solution.cpp">38.29%</a></td>
+    <td>38.29%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/power-of-two/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>5</td>
+    <td>005</td>
     <td><p><a href="https://leetcode.com/problems/fizz-buzz/">fizz-buzz</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/fizz-buzz/solution.cpp">12.84%</a></td>
+    <td>12.84%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/fizz-buzz/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>6</td>
+    <td>006</td>
     <td><p><a href="https://leetcode.com/problems/majority-element/">majority-element</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/majority-element/solution.cpp">19.16%</a></td>
+    <td>19.16%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/majority-element/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>7</td>
+    <td>007</td>
     <td><p><a href="https://leetcode.com/problems/two-sum/">two-sum</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/two-sum/solution.cpp">60.05%</a></td>
+    <td>60.05%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/two-sum/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>8</td>
+    <td>008</td>
     <td><p><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">remove-duplicates-from-sorted-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/remove-duplicates-from-sorted-array/solution.cpp">78.65%</a></td>
+    <td>78.65%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/remove-duplicates-from-sorted-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>9</td>
+    <td>009</td>
     <td><p><a href="https://leetcode.com/problems/remove-element/">remove-element</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/remove-element/solution.cpp">78.54%</a></td>
+    <td>78.54%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/remove-element/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>10</td>
+    <td>010</td>
     <td><p><a href="https://leetcode.com/problems/plus-one/">plus-one</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/plus-one/solution.cpp">20.24%</a></td>
+    <td>20.24%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/plus-one/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>11</td>
+    <td>011</td>
     <td><p><a href="https://leetcode.com/problems/third-maximum-number/">third-maximum-number</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/third-maximum-number/solution.cpp">31.85%</a></td>
+    <td>31.85%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/third-maximum-number/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>12</td>
+    <td>012</td>
     <td><p><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/">kth-largest-element-in-an-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/kth-largest-element-in-an-array/solution.cpp">59.26%</a></td>
+    <td>59.26%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/kth-largest-element-in-an-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>13</td>
+    <td>013</td>
     <td><p><a href="https://leetcode.com/problems/move-zeroes/">move-zeroes</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/move-zeroes/solution.cpp">2.97%</a></td>
+    <td>02.97%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/move-zeroes/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>14</td>
+    <td>014</td>
     <td><p><a href="https://leetcode.com/problems/max-consecutive-ones/">max-consecutive-ones</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/max-consecutive-ones/solution.cpp">74.82%</a></td>
+    <td>74.82%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/max-consecutive-ones/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>15</td>
+    <td>015</td>
     <td><p><a href="https://leetcode.com/problems/rotate-array/">rotate-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/rotate-array/solution.cpp">61.48%</a></td>
+    <td>61.48%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/rotate-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>16</td>
+    <td>016</td>
     <td><p><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">best-time-to-buy-and-sell-stock</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/best-time-to-buy-and-sell-stock/solution.cpp">45.09%</a></td>
+    <td>45.00%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/best-time-to-buy-and-sell-stock/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>17</td>
+    <td>017</td>
     <td><p><a href="https://leetcode.com/problems/merge-sorted-array/">merge-sorted-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/merge-sorted-array/solution.cpp">63.33%</a></td>
+    <td>63.33%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/merge-sorted-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>18</td>
+    <td>018</td>
     <td><p><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/">find-all-numbers-disappeared-in-an-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-all-numbers-disappeared-in-an-array/solution.cpp">98.89%</a></td>
+    <td>98.89%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-all-numbers-disappeared-in-an-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>19</td>
+    <td>019</td>
     <td><p><a href="https://leetcode.com/problems/contains-duplicate/">contains-duplicate</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/contains-duplicate/solution.cpp">48.80%</a></td>
+    <td>48.80%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/contains-duplicate/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>20</td>
+    <td>020</td>
     <td><p><a href="https://leetcode.com/problems/contains-duplicate-ii/">contains-duplicate-ii</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/contains-duplicate-ii/solution.cpp">16.81%</a></td>
+    <td>16.81%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/contains-duplicate-ii/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>21</td>
+    <td>021</td>
     <td><p><a href="https://leetcode.com/problems/game-of-life/">game-of-life</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/game-of-life/solution.cpp">7.78%</a></td>
+    <td>07.78%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/game-of-life/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>22</td>
+    <td>022</td>
     <td><p><a href="https://leetcode.com/problems/triangle/">triangle</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/triangle/solution.cpp">0.85%</a></td>
+    <td>00.85%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/triangle/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>23</td>
+    <td>023</td>
     <td><p><a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/">find-all-duplicates-in-an-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-all-duplicates-in-an-array/solution.cpp">66.37%</a></td>
+    <td>66.37%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-all-duplicates-in-an-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>24</td>
+    <td>024</td>
     <td><p><a href="https://leetcode.com/problems/missing-number/">missing-number</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/missing-number/solution.cpp">45.84%</a></td>
+    <td>45.84%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/missing-number/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>25</td>
+    <td>025</td>
     <td><p><a href="https://leetcode.com/problems/product-of-array-except-self/">product-of-array-except-self</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/product-of-array-except-self/solution.cpp">50.98%</a></td>
+    <td>50.98%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/product-of-array-except-self/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>26</td>
+    <td>026</td>
     <td><p><a href="https://leetcode.com/problems/search-a-2d-matrix/">search-a-2d-matrix</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/search-a-2d-matrix/solution.cpp">33.58%</a></td>
+    <td>33.58%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/search-a-2d-matrix/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>27</td>
+    <td>027</td>
     <td><p><a href="https://leetcode.com/problems/find-peak-element/">find-peak-element</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-peak-element/solution.cpp">0.91%</a></td>
+    <td>00.91%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-peak-element/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>28</td>
+    <td>028</td>
     <td><p><a href="https://leetcode.com/problems/valid-perfect-square/">valid-perfect-square</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/valid-perfect-square/solution.cpp">10.93%</a></td>
+    <td>10.93%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/valid-perfect-square/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>29</td>
+    <td>029</td>
     <td><p><a href="https://leetcode.com/problems/sqrtx/">sqrtx</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/sqrtx/solution.cpp">8.32%</a></td>
+    <td>08.32%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/sqrtx/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>30</td>
+    <td>030</td>
     <td><p><a href="https://leetcode.com/problems/powx-n/">powx-n</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/powx-n/solution.cpp">62.32%</a></td>
+    <td>62.32%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/powx-n/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>31</td>
+    <td>031</td>
     <td><p><a href="https://leetcode.com/problems/summary-ranges/">summary-ranges</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/summary-ranges/solution.cpp">1.19%</a></td>
+    <td>01.19%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/summary-ranges/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>32</td>
+    <td>032</td>
     <td><p><a href="https://leetcode.com/problems/minimum-size-subarray-sum/">minimum-size-subarray-sum</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/minimum-size-subarray-sum/solution.cpp">50.66%</a></td>
+    <td>50.66%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/minimum-size-subarray-sum/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>33</td>
+    <td>033</td>
     <td><p><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">two-sum-ii-input-array-is-sorted</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/two-sum-ii-input-array-is-sorted/solution.cpp">30.63%</a></td>
+    <td>30.63%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/two-sum-ii-input-array-is-sorted/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>34</td>
+    <td>034</td>
     <td><p><a href="https://leetcode.com/problems/maximum-product-subarray/">maximum-product-subarray</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/maximum-product-subarray/solution.cpp">68.94%</a></td>
+    <td>68.94%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/maximum-product-subarray/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>35</td>
+    <td>035</td>
     <td><p><a href="https://leetcode.com/problems/3sum/">3sum</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/3sum/solution.cpp">89.08%</a></td>
+    <td>89.00%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/3sum/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>36</td>
+    <td>036</td>
     <td><p><a href="https://leetcode.com/problems/3sum-closest/">3sum-closest</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/3sum-closest/solution.cpp">32.29%</a></td>
+    <td>32.29%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/3sum-closest/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>37</td>
+    <td>037</td>
     <td><p><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">find-minimum-in-rotated-sorted-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-minimum-in-rotated-sorted-array/solution.cpp">36.74%</a></td>
+    <td>36.74%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-minimum-in-rotated-sorted-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>38</td>
+    <td>038</td>
     <td><p><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">search-in-rotated-sorted-array</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/search-in-rotated-sorted-array/solution.cpp">50.65%</a></td>
+    <td>50.65%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/search-in-rotated-sorted-array/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>39</td>
+    <td>039</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-level-order-traversal-ii/">binary-tree-level-order-traversal-ii</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-level-order-traversal-ii/solution.cpp">28.54%</a></td>
+    <td>28.54%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-level-order-traversal-ii/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>40</td>
+    <td>040</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-paths/">binary-tree-paths</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-paths/solution.cpp">33.42%</a></td>
+    <td>33.42%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-paths/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>41</td>
+    <td>041</td>
     <td><p><a href="https://leetcode.com/problems/sum-of-left-leaves/">sum-of-left-leaves</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/sum-of-left-leaves/solution.cpp">14.22%</a></td>
+    <td>14.22%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/sum-of-left-leaves/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>42</td>
+    <td>042</td>
     <td><p><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">maximum-depth-of-binary-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/maximum-depth-of-binary-tree/solution.cpp">38.46%</a></td>
+    <td>38.46%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/maximum-depth-of-binary-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>43</td>
+    <td>043</td>
     <td><p><a href="https://leetcode.com/problems/balanced-binary-tree/">balanced-binary-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/balanced-binary-tree/solution.cpp">42.83%</a></td>
+    <td>42.83%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/balanced-binary-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>44</td>
+    <td>044</td>
     <td><p><a href="https://leetcode.com/problems/path-sum-iii/">path-sum-iii</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/path-sum-iii/solution.cpp">48.78%</a></td>
+    <td>48.78%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/path-sum-iii/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>45</td>
+    <td>045</td>
     <td><p><a href="https://leetcode.com/problems/path-sum/">path-sum</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/path-sum/solution.cpp">20.44%</a></td>
+    <td>20.44%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/path-sum/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>46</td>
+    <td>046</td>
     <td><p><a href="https://leetcode.com/problems/path-sum-ii/">path-sum-ii</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/path-sum-ii/solution.cpp">11.48%</a></td>
+    <td>11.48%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/path-sum-ii/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>47</td>
+    <td>047</td>
     <td><p><a href="https://leetcode.com/problems/find-mode-in-binary-search-tree/">find-mode-in-binary-search-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-mode-in-binary-search-tree/solution.cpp">12.51%</a></td>
+    <td>12.51%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-mode-in-binary-search-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>48</td>
+    <td>048</td>
     <td><p><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">lowest-common-ancestor-of-a-binary-search-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/lowest-common-ancestor-of-a-binary-search-tree/solution.cpp">45.03%</a></td>
+    <td>45.03%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/lowest-common-ancestor-of-a-binary-search-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>49</td>
+    <td>049</td>
     <td><p><a href="https://leetcode.com/problems/invert-binary-tree/">invert-binary-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/invert-binary-tree/solution.cpp">3.32%</a></td>
+    <td>03.32%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/invert-binary-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>50</td>
+    <td>050</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-right-side-view/">binary-tree-right-side-view</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-right-side-view/solution.cpp">27.62%</a></td>
+    <td>27.62%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-right-side-view/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>51</td>
+    <td>051</td>
     <td><p><a href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node/">populating-next-right-pointers-in-each-node</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/populating-next-right-pointers-in-each-node/solution.cpp">40.61%</a></td>
+    <td>40.61%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/populating-next-right-pointers-in-each-node/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>52</td>
+    <td>052</td>
     <td><p><a href="https://leetcode.com/problems/valid-anagram/">valid-anagram</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/valid-anagram/solution.cpp">32.57%</a></td>
+    <td>32.57%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/valid-anagram/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>53</td>
+    <td>053</td>
     <td><p><a href="https://leetcode.com/problems/linked-list-cycle/">linked-list-cycle</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/linked-list-cycle/solution.cpp">44.72%</a></td>
+    <td>44.72%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/linked-list-cycle/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>54</td>
+    <td>054</td>
     <td><p><a href="https://leetcode.com/problems/symmetric-tree/">symmetric-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/symmetric-tree/solution.cpp">36.07%</a></td>
+    <td>36.07%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/symmetric-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>55</td>
+    <td>055</td>
     <td><p><a href="https://leetcode.com/problems/same-tree/">same-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/same-tree/solution.cpp">1.99%</a></td>
+    <td>01.99%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/same-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>56</td>
+    <td>056</td>
     <td><p><a href="https://leetcode.com/problems/unique-binary-search-trees/">unique-binary-search-trees</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/unique-binary-search-trees/solution.cpp">40.20%</a></td>
+    <td>40.20%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/unique-binary-search-trees/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>57</td>
+    <td>057</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/">binary-tree-level-order-traversal</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-level-order-traversal/solution.cpp">3.76%</a></td>
+    <td>03.76%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-level-order-traversal/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>58</td>
+    <td>058</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/">binary-tree-zigzag-level-order-traversal</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-zigzag-level-order-traversal/solution.cpp">39.90%</a></td>
+    <td>39.90%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-zigzag-level-order-traversal/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>59</td>
+    <td>059</td>
     <td><p><a href="https://leetcode.com/problems/find-largest-value-in-each-tree-row/">find-largest-value-in-each-tree-row</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-largest-value-in-each-tree-row/solution.cpp">62.47%</a></td>
+    <td>62.47%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/find-largest-value-in-each-tree-row/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>60</td>
+    <td>060</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-inorder-traversal/">binary-tree-inorder-traversal</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-inorder-traversal/solution.cpp">3.10%</a></td>
+    <td>03.10%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-inorder-traversal/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>61</td>
+    <td>061</td>
     <td><p><a href="https://leetcode.com/problems/validate-binary-search-tree/">validate-binary-search-tree</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/validate-binary-search-tree/solution.cpp">57.17%</a></td>
+    <td>57.17%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/validate-binary-search-tree/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>62</td>
+    <td>062</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-postorder-traversal/">binary-tree-postorder-traversal</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-postorder-traversal/solution.cpp">85.08%</a></td>
+    <td>85.00%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-postorder-traversal/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>63</td>
+    <td>063</td>
     <td><p><a href="https://leetcode.com/problems/binary-tree-preorder-traversal/">binary-tree-preorder-traversal</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-preorder-traversal/solution.cpp">3.14%</a></td>
+    <td>03.14%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/binary-tree-preorder-traversal/solution.cpp">[solution]</a></td>
   </tr>
   <tr>
-    <td>64</td>
+    <td>064</td>
     <td><p><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">kth-smallest-element-in-a-bst</a></td>
-    <td><a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/kth-smallest-element-in-a-bst/solution.cpp">41.13%</a></td>
+    <td>41.13%, <a href="https://github.com/KaranTalreja/LeetCode/blob/master/src/kth-smallest-element-in-a-bst/solution.cpp">[solution]</a></td>
   </tr>
+ <script>
+ function sortTable(n) {
+   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+   table = document.getElementById("myTable2");
+   switching = true;
+   //Set the sorting direction to ascending:
+   dir = "asc";
+   /*Make a loop that will continue until
+   no switching has been done:*/
+   while (switching) {
+     //start by saying: no switching is done:
+     switching = false;
+     rows = table.getElementsByTagName("TR");
+     /*Loop through all table rows (except the
+     first, which contains table headers):*/
+     for (i = 1; i < (rows.length - 1); i++) {
+       //start by saying there should be no switching:
+       shouldSwitch = false;
+       /*Get the two elements you want to compare,
+       one from current row and one from the next:*/
+       x = rows[i].getElementsByTagName("TD")[n];
+       y = rows[i + 1].getElementsByTagName("TD")[n];
+       /*check if the two rows should switch place,
+       based on the direction, asc or desc:*/
+       if (dir == "asc") {
+         if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+           //if so, mark as a switch and break the loop:
+           shouldSwitch= true;
+           break;
+         }
+       } else if (dir == "desc") {
+         if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+           //if so, mark as a switch and break the loop:
+           shouldSwitch= true;
+           break;
+         }
+       }
+     }
+     if (shouldSwitch) {
+       /*If a switch has been marked, make the switch
+       and mark that a switch has been done:*/
+       rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+       switching = true;
+       //Each time a switch is done, increase this count by 1:
+       switchcount ++; 
+     } else {
+       /*If no switching has been done AND the direction is "asc",
+       set the direction to "desc" and run the while loop again.*/
+       if (switchcount == 0 && dir == "asc") {
+         dir = "desc";
+         switching = true;
+       }
+     }
+   }
+ }
+ </script>
+ <script>
 </table>
 </body>
 </html>

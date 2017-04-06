@@ -66,3 +66,6 @@ https://leetcode.com/problems/excel-sheet-column-title/
 https://leetcode.com/problems/excel-sheet-column-number/
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 https://leetcode.com/problems/spiral-matrix/
+https://leetcode.com/problems/spiral-matrix-ii/
+https://leetcode.com/problems/sort-colors/
+https://leetcode.com/problems/reverse-words-in-a-string/

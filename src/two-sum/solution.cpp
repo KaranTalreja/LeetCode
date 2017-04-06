@@ -33,3 +33,33 @@ class Solution {
         return retval;
     }
 };
+/**
+class Solution {
+  public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+      vector<int> retval;
+      vector<int> copy(nums);
+      sort(copy.begin(),copy.end());
+      int start = 0, end = copy.size()-1;
+      while (start < end) {
+        if (copy[start] + copy[end] > target) end--;
+        else if (copy[start] + copy[end] < target) start++;
+        else break;
+      }
+      int new_start = -1, new_end = -1;
+      int length = nums.size();
+      for (int i = 0; i < length; i++) {
+        if ((-1 == new_start || new_start == new_end) && nums[i] == copy[start]) new_start = i;
+        if ((-1 == new_end || new_start == new_end) && nums[i] == copy[end]) new_end = i;
+        if (-1 != new_start && -1 != new_end && new_start != new_end) break;
+      }
+      if (new_start < new_end) {
+        retval.push_back(new_start);
+        retval.push_back(new_end);
+      } else {
+        retval.push_back(new_end);
+        retval.push_back(new_start);
+      }
+      return retval;
+    }
+};*/

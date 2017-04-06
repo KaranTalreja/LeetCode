@@ -27,3 +27,38 @@ class Solution {
       return retval;
     }
 };
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+/**class Solution {
+  public:
+
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+      vector<vector<int>> retval;
+      if (NULL == root) return retval;
+      list<TreeNode*> level;
+      level.push_back(root);
+      int depth = 0;
+      while (!level.empty()) {
+        vector<int> a;
+        retval.push_back(a);
+        int size = level.size();
+        for (int i = 0; i < size; i++) {
+          TreeNode* currNode = level.front();
+          level.pop_front();
+          if (currNode->left) level.push_back(currNode->left);
+          if (currNode->right) level.push_back(currNode->right);
+          if (!(depth%2)) retval[depth].push_back(currNode->val);
+          else retval[depth].insert(retval[depth].begin(), currNode->val);
+        }
+        depth++;
+      }
+      return retval;
+    }
+};*/

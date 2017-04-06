@@ -26,3 +26,23 @@ class Solution {
       return retval;
     }
 };
+/**class Solution {
+  public:
+    vector<int> rightSideView(TreeNode* root) {
+      vector<int> retval;
+      if (NULL == root) return retval;
+      list<TreeNode*> level;
+      level.push_back(root);
+      while (!level.empty()) {
+        int size = level.size();
+        retval.push_back(level.back()->val);
+        for (int i = 0; i < size; i++) {
+          TreeNode* currNode = level.front();
+          level.pop_front();
+          if (NULL != currNode->left) level.push_back(currNode->left);
+          if (NULL != currNode->right) level.push_back(currNode->right);
+        }
+      }
+      return retval;
+    }
+};*/

@@ -69,3 +69,6 @@ https://leetcode.com/problems/spiral-matrix/
 https://leetcode.com/problems/spiral-matrix-ii/
 https://leetcode.com/problems/sort-colors/
 https://leetcode.com/problems/reverse-words-in-a-string/
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+https://leetcode.com/problems/maximum-subarray/
+https://leetcode.com/problems/delete-node-in-a-linked-list/

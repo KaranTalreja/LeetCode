@@ -72,3 +72,8 @@ https://leetcode.com/problems/reverse-words-in-a-string/
 https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 https://leetcode.com/problems/maximum-subarray/
 https://leetcode.com/problems/delete-node-in-a-linked-list/
+https://leetcode.com/problems/merge-two-sorted-lists/
+https://leetcode.com/problems/valid-parentheses/
+https://leetcode.com/problems/implement-trie-prefix-tree/
+https://leetcode.com/problems/copy-list-with-random-pointer/
+https://leetcode.com/problems/reverse-linked-list/

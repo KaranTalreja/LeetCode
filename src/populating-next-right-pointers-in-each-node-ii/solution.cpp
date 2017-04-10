@@ -10,19 +10,26 @@ class Solution {
   public:
     void connect(TreeLinkNode *root) {
       if (root == NULL) return;
-      list<TreeLinkNode*> level;
-      level.push_back(root);
-      while (!level.empty()) {
-        int size = level.size();
-        TreeLinkNode* prevNode = NULL;
-        for (int i = 0; i < size; i++) {
-          TreeLinkNode* currNode = level.front();
-          level.pop_front();
-          if (NULL != currNode->left) level.push_back(currNode->left);
-          if (NULL != currNode->right) level.push_back(currNode->right);
-          if (NULL != prevNode) prevNode->next = currNode;
-          prevNode = currNode;
+      TreeLinkNode* currNode = root;
+      TreeLinkNode* nextLevelPrev = NULL;
+      TreeLinkNode* nextLevelHead = NULL;
+      while (NULL != currNode) {
+        while (NULL != currNode) {
+          if (NULL != currNode->left) {
+            if (NULL == nextLevelHead) nextLevelHead = currNode->left;
+            if (NULL != nextLevelPrev) nextLevelPrev->next = currNode->left;
+            nextLevelPrev = currNode->left;
+          }
+          if (NULL != currNode->right) {
+            if (NULL == nextLevelHead) nextLevelHead = currNode->right;
+            if (NULL != nextLevelPrev) nextLevelPrev->next = currNode->right;
+            nextLevelPrev = currNode->right;
+          }
+          currNode = currNode->next;
         }
+        currNode = nextLevelHead;
+        nextLevelHead = NULL;
+        nextLevelPrev = NULL;
       }
     }
 };

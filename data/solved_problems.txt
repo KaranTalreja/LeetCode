@@ -77,3 +77,5 @@ https://leetcode.com/problems/valid-parentheses/
 https://leetcode.com/problems/implement-trie-prefix-tree/
 https://leetcode.com/problems/copy-list-with-random-pointer/
 https://leetcode.com/problems/reverse-linked-list/
+https://leetcode.com/problems/swap-nodes-in-pairs/
+https://leetcode.com/problems/dungeon-game/

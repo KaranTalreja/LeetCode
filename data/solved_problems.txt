@@ -79,3 +79,5 @@ https://leetcode.com/problems/copy-list-with-random-pointer/
 https://leetcode.com/problems/reverse-linked-list/
 https://leetcode.com/problems/swap-nodes-in-pairs/
 https://leetcode.com/problems/dungeon-game/
+https://leetcode.com/problems/sum-root-to-leaf-numbers/
+https://leetcode.com/problems/add-two-numbers/

@@ -81,3 +81,7 @@ https://leetcode.com/problems/swap-nodes-in-pairs/
 https://leetcode.com/problems/dungeon-game/
 https://leetcode.com/problems/sum-root-to-leaf-numbers/
 https://leetcode.com/problems/add-two-numbers/
+https://leetcode.com/problems/nim-game/
+https://leetcode.com/problems/climbing-stairs/
+https://leetcode.com/problems/valid-palindrome/
+https://leetcode.com/problems/reverse-string/

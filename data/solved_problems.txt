@@ -101,3 +101,5 @@ https://leetcode.com/problems/find-right-interval/
 https://leetcode.com/problems/longest-increasing-subsequence/
 https://leetcode.com/problems/reverse-linked-list-ii/
 https://leetcode.com/problems/rotate-list/
+https://leetcode.com/problems/palindrome-linked-list/
+https://leetcode.com/problems/odd-even-linked-list/

@@ -24,13 +24,13 @@ class Solution {
       // The following loop depends on k being smaller than n. So modulo operation.
       k %= n;
       /* To find the kth node from end
-         From start it would be n-k th node.
+         From start it would be n-k+1 th node.
          Since to go to 2nd node it takes one iteration.
-         to go to n-kth node it'll take n-k-1 iterations.
-         Since we require the set the n-k-1 th node next to NULL,we run the loop n-k-2 times.
-         >= implies a-b iteration for (i = a; i >= b)
-         > implies a -b -1 iterations
-         we need n-k -2 iterations since a = n; a-b-1 = n-k-2; k+2 = b+1; b = k + 1
+         to go to n-k+1th node it'll take n-k iterations.
+         Since we require the set the n-k th node next to NULL,we run the loop n-k-1 times.
+         >= implies a-b+1 iteration for (i = a; i >= b)
+         > implies a-b iterations
+         we need n-k -1 iterations since a = n; a-b = n-k-1; b = k + 1
        */
       for (int i = n; i > k + 1; i--) {
         curr = curr->next;

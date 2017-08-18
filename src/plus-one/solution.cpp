@@ -19,3 +19,26 @@ class Solution {
       return digits;
     }
 };
+
+// Alternative solution : Recursive
+class SolutionRecur {
+  public:
+    vector<int> helper(vector<int>& digits, int index, size_t& size, int& carry) {
+      if (index < size) helper(digits, index+1, size, carry);
+      else { carry = 1; return digits;}
+      digits[index] += carry;
+      if (digits[index] >= 10) {
+        carry = digits[index]/10;
+        digits[index] %= 10;
+      } else carry = 0;
+      return digits;
+    }
+    vector<int> plusOne(vector<int>& digits) {
+      int carry = 0;
+      int idx = 0;
+      size_t size = digits.size();
+      digits = helper(digits, idx, size, carry);
+      if (carry == 1) digits.insert(digits.begin(),1);
+      return digits;
+    }
+};

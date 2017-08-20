@@ -114,3 +114,8 @@ https://leetcode.com/problems/maximum-product-of-three-numbers/
 https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 https://leetcode.com/problems/add-two-numbers-ii/
 https://leetcode.com/problems/rotate-image/
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
+https://leetcode.com/problems/permutation-in-string/
+https://leetcode.com/problems/sliding-window-maximum/
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+https://leetcode.com/problems/generate-parentheses/

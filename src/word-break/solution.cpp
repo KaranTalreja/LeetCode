@@ -5,50 +5,40 @@
 using namespace std;
 class Solution {
   public:
-    int searchDict (string& s, int start, int end, vector<string>& wordDict, vector<vector<int> >& dp) {
-      if (dp[start][end] != -1) return dp[start][end];
+    int searchDict (string s, vector<string>& wordDict) {
       for (int i = 0; i < wordDict.size(); i++) {
-        if (!s.compare(start, end-start+1, wordDict[i])) {
-          dp[start][end] = 1;
-          return dp[start][end];
+        if (!s.compare(wordDict[i])) {
+          return 1;
         }
       }
-      dp[start][end] = 0;
-      return dp[start][end];
+      return 0;
     }
     bool wordBreak(string s, vector<string>& wordDict) {
       int size = s.size();
       if (!size) return false;
-      vector<vector<int> > dp(size, vector<int>(size, -1));
-      for (int i = 0; i < size; i++){searchDict(s,i,i,wordDict,dp);}
-      for (int L = 2; L <= size; L++) {
-        for (int i = 0; i < size -L + 1; i++) {
-          int j = i+L-1;
-          //cout <<"Searching in " << s.substr(i, j-i+1) <<" " << i << "," << j << endl;
-          searchDict(s, i,j, wordDict,dp);
-          for (int k = i; k < j; k++) {
-            //cout << s.substr(i, k-i+1);
-            int lhs = searchDict(s,i,k,wordDict,dp);
-            //cout << " : " << lhs << endl;
-            //cout << s.substr(k+1, j-k); 
-            int rhs = searchDict(s,k+1,j,wordDict,dp);
-            //cout << " : " << rhs << endl;
-            if (lhs == 1 && rhs == 1) {
-              dp[i][j] = 1;
-              break;
-            }
+      vector<int> dp(size,0);
+      dp[0] = searchDict(s.substr(0,1), wordDict);
+      for (int i = 1; i < size; i++) {
+        for (int j = i-1; j >= 0; j--) {
+          if (dp[j]) {
+            dp[i] = searchDict(s.substr(j+1,i-j), wordDict);
+            if(dp[i]) break;
           }
         }
+        if (dp[i] == 0) dp[i] = searchDict(s.substr(0,i+1), wordDict);
       }
-      return dp[0][size-1] == 1? true : false;
+      return dp[size-1];
     }
 };
 
 int main() {
-  string s = "leecode";
+  string s = "iamatgoodamcodingcoding";
   vector<string> wordDict;
-  wordDict.push_back("leet");
-  wordDict.push_back("code");
+  wordDict.push_back("i");
+  wordDict.push_back("am");
+  wordDict.push_back("good");
+  wordDict.push_back("at");
+  wordDict.push_back("coding");
   Solution ans;
   cout << ans.wordBreak(s, wordDict) << endl; 
   return 0;

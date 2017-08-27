@@ -124,3 +124,7 @@ https://leetcode.com/problems/word-ladder/
 https://leetcode.com/problems/search-a-2d-matrix-ii/
 https://leetcode.com/problems/min-stack/
 https://leetcode.com/problems/intersection-of-two-linked-lists/
+https://leetcode.com/problems/merge-k-sorted-lists/
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+https://leetcode.com/problems/serialize-and-deserialize-bst/
+https://leetcode.com/problems/subsets/

@@ -134,3 +134,9 @@ https://leetcode.com/problems/repeated-substring-pattern/
 https://leetcode.com/problems/maximum-length-of-pair-chain/
 https://leetcode.com/problems/sort-characters-by-frequency/
 https://leetcode.com/problems/set-mismatch/
+https://leetcode.com/problems/most-frequent-subtree-sum/
+https://leetcode.com/problems/longest-palindromic-subsequence/
+https://leetcode.com/problems/convert-bst-to-greater-tree/
+https://leetcode.com/problems/k-diff-pairs-in-an-array/
+https://leetcode.com/problems/construct-string-from-binary-tree/
+https://leetcode.com/problems/merge-two-binary-trees/

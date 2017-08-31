@@ -140,3 +140,7 @@ https://leetcode.com/problems/convert-bst-to-greater-tree/
 https://leetcode.com/problems/k-diff-pairs-in-an-array/
 https://leetcode.com/problems/construct-string-from-binary-tree/
 https://leetcode.com/problems/merge-two-binary-trees/
+https://leetcode.com/problems/complex-number-multiplication/
+https://leetcode.com/problems/valid-sudoku/
+https://leetcode.com/problems/insert-delete-getrandom-o1/
+https://leetcode.com/problems/delete-node-in-a-bst/

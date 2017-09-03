@@ -144,3 +144,6 @@ https://leetcode.com/problems/complex-number-multiplication/
 https://leetcode.com/problems/valid-sudoku/
 https://leetcode.com/problems/insert-delete-getrandom-o1/
 https://leetcode.com/problems/delete-node-in-a-bst/
+https://leetcode.com/problems/factor-combinations/
+https://leetcode.com/problems/word-pattern/
+https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/

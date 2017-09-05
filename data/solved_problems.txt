@@ -147,3 +147,9 @@ https://leetcode.com/problems/delete-node-in-a-bst/
 https://leetcode.com/problems/factor-combinations/
 https://leetcode.com/problems/word-pattern/
 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+https://leetcode.com/problems/zigzag-iterator/
+https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
+https://leetcode.com/problems/bomb-enemy/
+https://leetcode.com/problems/word-squares/
+https://leetcode.com/problems/moving-average-from-data-stream/
+https://leetcode.com/problems/missing-ranges/

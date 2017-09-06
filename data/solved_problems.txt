@@ -153,3 +153,5 @@ https://leetcode.com/problems/bomb-enemy/
 https://leetcode.com/problems/word-squares/
 https://leetcode.com/problems/moving-average-from-data-stream/
 https://leetcode.com/problems/missing-ranges/
+https://leetcode.com/problems/single-number-iii/
+https://leetcode.com/problems/find-leaves-of-binary-tree/

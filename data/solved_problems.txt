@@ -155,3 +155,5 @@ https://leetcode.com/problems/moving-average-from-data-stream/
 https://leetcode.com/problems/missing-ranges/
 https://leetcode.com/problems/single-number-iii/
 https://leetcode.com/problems/find-leaves-of-binary-tree/
+https://leetcode.com/problems/reverse-nodes-in-k-group/
+https://leetcode.com/problems/unique-word-abbreviation/

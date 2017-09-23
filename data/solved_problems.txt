@@ -163,3 +163,5 @@ https://leetcode.com/problems/number-of-islands/
 https://leetcode.com/problems/wiggle-sort/
 https://leetcode.com/problems/3sum-smaller/
 https://leetcode.com/problems/utf-8-validation/
+https://leetcode.com/problems/strobogrammatic-number/
+https://leetcode.com/problems/the-skyline-problem/

@@ -165,3 +165,8 @@ https://leetcode.com/problems/3sum-smaller/
 https://leetcode.com/problems/utf-8-validation/
 https://leetcode.com/problems/strobogrammatic-number/
 https://leetcode.com/problems/the-skyline-problem/
+https://leetcode.com/problems/perfect-squares/
+https://leetcode.com/problems/walls-and-gates/
+https://leetcode.com/problems/strobogrammatic-number-ii/
+https://leetcode.com/problems/merge-intervals/
+https://leetcode.com/problems/generalized-abbreviation/

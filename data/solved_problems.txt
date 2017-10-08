@@ -171,3 +171,6 @@ https://leetcode.com/problems/strobogrammatic-number-ii/
 https://leetcode.com/problems/merge-intervals/
 https://leetcode.com/problems/generalized-abbreviation/
 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+https://leetcode.com/problems/evaluate-division/
+https://leetcode.com/contest/leetcode-weekly-contest-52/problems/longest-univalue-path/
+https://leetcode.com/problems/knight-probability-in-chessboard/

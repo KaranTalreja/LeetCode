@@ -174,3 +174,8 @@ https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
 https://leetcode.com/problems/evaluate-division/
 https://leetcode.com/contest/leetcode-weekly-contest-52/problems/longest-univalue-path/
 https://leetcode.com/problems/knight-probability-in-chessboard/
+https://leetcode.com/problems/pacific-atlantic-water-flow/
+https://leetcode.com/problems/lru-cache/
+https://leetcode.com/problems/peeking-iterator/
+https://leetcode.com/problems/flip-game/
+https://leetcode.com/problems/flip-game-ii/

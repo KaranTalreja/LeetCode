@@ -179,3 +179,6 @@ https://leetcode.com/problems/lru-cache/
 https://leetcode.com/problems/peeking-iterator/
 https://leetcode.com/problems/flip-game/
 https://leetcode.com/problems/flip-game-ii/
+https://leetcode.com/problems/valid-word-abbreviation/
+https://leetcode.com/problems/logger-rate-limiter/
+https://leetcode.com/problems/design-hit-counter/

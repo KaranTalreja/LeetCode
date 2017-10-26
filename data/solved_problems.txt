@@ -187,3 +187,9 @@ https://leetcode.com/problems/range-sum-query-mutable/
 https://leetcode.com/problems/range-addition-ii/
 https://leetcode.com/problems/range-sum-query-2d-mutable/
 https://leetcode.com/problems/bitwise-and-of-numbers-range/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+https://leetcode.com/problems/palindrome-partitioning/
+https://leetcode.com/problems/palindromic-substrings/
+https://leetcode.com/problems/valid-palindrome-ii/

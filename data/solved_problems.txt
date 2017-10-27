@@ -193,3 +193,10 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 https://leetcode.com/problems/palindrome-partitioning/
 https://leetcode.com/problems/palindromic-substrings/
 https://leetcode.com/problems/valid-palindrome-ii/
+https://leetcode.com/problems/roman-to-integer/
+https://leetcode.com/problems/zigzag-conversion/
+https://leetcode.com/problems/longest-common-prefix/
+https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+https://leetcode.com/problems/longest-palindromic-substring/
+https://leetcode.com/problems/palindrome-permutation/
+https://leetcode.com/problems/longest-palindrome/

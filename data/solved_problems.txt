@@ -200,3 +200,9 @@ https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-charac
 https://leetcode.com/problems/longest-palindromic-substring/
 https://leetcode.com/problems/palindrome-permutation/
 https://leetcode.com/problems/longest-palindrome/
+https://leetcode.com/problems/palindrome-permutation-ii/
+https://leetcode.com/problems/permutations-ii/
+https://leetcode.com/problems/permutations/
+https://leetcode.com/problems/next-permutation/
+https://leetcode.com/problems/permutation-sequence/
+https://leetcode.com/problems/combinations/

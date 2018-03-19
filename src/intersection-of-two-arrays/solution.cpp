@@ -20,3 +20,22 @@ class Solution {
       return retval;
     }
 };
+
+class Solution {
+  public:
+    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+      unordered_set<int> s;
+      for (auto x: nums1) {
+        s.insert(x);
+      }
+      vector<int> retval;
+      unordered_set<int> r;
+      for (auto x : nums2) {
+        if (s.end() != s.find(x) && r.end() == r.find(x)) {
+          retval.push_back(x);
+          r.insert(x);
+        }
+      }
+      return retval;
+    }
+};

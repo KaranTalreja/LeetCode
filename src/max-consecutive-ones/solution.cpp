@@ -21,3 +21,20 @@ class Solution {
       return max;
     }
 };
+
+class Solution {
+  public:
+    int findMaxConsecutiveOnes(vector<int>& nums) {
+      int rc = 0;
+      int max = INT_MIN;
+      for (auto x : nums) {
+        if (x == 0) {
+          if (rc > max) max = rc;
+          rc = 0;
+        }
+        else rc++;
+      }
+      if (rc > max) max = rc;
+      return max;
+    }
+};

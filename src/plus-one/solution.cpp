@@ -42,3 +42,20 @@ class SolutionRecur {
       return digits;
     }
 };
+
+class Solution {
+  public:
+    vector<int> plusOne(vector<int>& digits) {
+      int size = digits.size();
+      int carry = 0;
+      int temp;
+      for (int i = size-1; i >= 0; i--) {
+        if (i == size-1)    temp = digits[i] + 1;
+        else    temp = digits[i] + carry;
+        digits[i] = temp % 10;
+        carry = temp / 10;
+      }
+      if (carry == 1) digits.insert(digits.begin(), 1);
+      return digits;
+    }
+};

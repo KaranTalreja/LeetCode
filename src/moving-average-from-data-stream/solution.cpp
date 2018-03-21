@@ -34,6 +34,26 @@ class MovingAverage {
       return retval;
     }
 };
+class MovingAverage {
+  public:
+    /** Initialize your data structure here. */
+    queue<int> data;
+    int N;
+    double currSum = 0;
+    MovingAverage(int size) : N(size) {
+
+    }
+
+    double next(int val) {
+      data.push(val);
+      currSum += val;
+      if (data.size() > N) {
+        currSum -= data.front();
+        data.pop();
+      }
+      return currSum / data.size();
+    }
+};
 
 /**
  * Your MovingAverage object will be instantiated and called as such:

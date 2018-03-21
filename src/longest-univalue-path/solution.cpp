@@ -64,3 +64,30 @@ class Solution {
       return max(max(left, right), includingLeft+includingRight);
     }
 };
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+  public:
+    int helper(TreeNode* root, int val) {
+      if (!root || root->val != val) return 0;
+      return max(helper(root->left, val), helper(root->right, val)) + 1;
+    }
+
+    int longestUnivaluePath(TreeNode* root) {
+      if (!root) return 0;
+      int rc1 = longestUnivaluePath(root->left);
+      int rc2 = longestUnivaluePath(root->right);
+      rc1 = rc2 > rc1 ? rc2 : rc1;
+      rc2 = helper(root->left, root->val) + helper(root->right, root->val);
+      rc1 = rc2 > rc1 ? rc2 : rc1;
+      return rc1;
+    }
+};

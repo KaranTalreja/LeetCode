@@ -21,3 +21,31 @@ class Solution {
       return retval;
     }
 };
+
+class Solution {
+  public:
+    string longestCommonPrefix(vector<string>& strs) {
+      int len = 0;
+      int size = strs.size();
+      if (!size) return "";
+      vector<string::iterator> heads(size);
+      vector<string::iterator> ends(size);
+      for (int i = 0; i < size; i++) {
+        heads[i] = strs[i].begin();
+        ends[i] = strs[i].end();
+      }
+      int retval = -1;
+      bool mismatch = false;
+      while (!mismatch) {
+        retval++;
+        char c;
+        for (int i = 0; i < size && mismatch == false;  i++) {
+          if (heads[i] == ends[i]) {mismatch=true; break;}
+          if (i == 0) c = *heads[i];
+          if (*heads[i] != c) {mismatch=true; break;}
+          heads[i]++;
+        }
+      }
+      return strs[0].substr(0,retval);
+    }
+};

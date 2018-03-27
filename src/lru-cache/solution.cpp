@@ -21,6 +21,45 @@ cache.get(1);       // returns -1 (not found)
 cache.get(3);       // returns 3
 cache.get(4);       // returns 4
 */
+
+class LRUCache {
+  public:
+    int m_capacity;
+    list<pair<int, int>> dll;
+    unordered_map<int, list<pair<int,int>>::iterator> hash;
+    LRUCache(int capacity) {
+      m_capacity = capacity;
+    }
+
+    int get(int key) {
+      auto rc = hash.find(key);
+      if (rc == hash.end()) return -1;
+      int retval = rc->second->second;
+      dll.push_front(*(rc->second));
+      dll.erase(rc->second);
+      rc->second = dll.begin();
+      return retval;
+    }
+
+    void put(int key, int value) {
+      auto rc = hash.find(key);
+      if (rc == hash.end()) {
+        if (dll.size() == m_capacity) {
+          auto drc = dll.back();
+          hash.erase(drc.first);
+          dll.pop_back();
+        }
+        dll.push_front(pair<int,int>(key, value));
+        hash.insert(pair<int, list<pair<int,int>>::iterator>(key, dll.begin()));
+      } else {
+        rc->second->second = value;
+        dll.push_front(*(rc->second));
+        dll.erase(rc->second);
+        rc->second = dll.begin();
+      }
+    }
+};
+
 class LRUCache {
   public:
     list<pair<int,int>> dQ;

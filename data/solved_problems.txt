@@ -234,3 +234,6 @@ https://leetcode.com/problems/single-number/
 https://leetcode.com/problems/reverse-integer/
 https://leetcode.com/problems/next-closest-time/
 https://leetcode.com/problems/shortest-palindrome/
+https://leetcode.com/problems/group-anagrams/
+https://leetcode.com/problems/set-matrix-zeroes/
+https://leetcode.com/problems/trapping-rain-water/

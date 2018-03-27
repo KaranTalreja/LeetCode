@@ -44,3 +44,40 @@ class Solution {
       return retval;
     }
 };
+
+class Solution {
+  public:
+    bool operator() (const pair<int,ListNode*>& a, const pair<int,ListNode*>& b) const {
+      if (a.first > b.first) return true;
+      return false;
+    }
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+      priority_queue<pair<int, ListNode*>, vector<pair<int, ListNode*>>, Solution> heap;
+      pair<int, ListNode*> temp;
+      for (auto l : lists) {
+        if(!l) continue;
+        temp.first = l->val;
+        temp.second = l;
+        heap.push(temp);
+      }
+      ListNode* head = NULL;
+      ListNode* curr = NULL;
+      while (!heap.empty()) {
+        auto rc = heap.top();
+        if (head == NULL) {
+          head = rc.second;
+          curr = head;
+        } else {
+          curr->next = rc.second;
+          curr = curr->next;
+        }
+        if (rc.second->next) {
+          temp.first = rc.second->next->val;
+          temp.second = rc.second->next;
+          heap.push(temp);
+        }
+        heap.pop();
+      }
+      return head;
+    }
+};

@@ -30,3 +30,36 @@ class Solution {
       return retval;
     }
 };
+
+class Solution {
+  public:
+    vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
+      vector<string> retval;
+      size_t size = nums.size();
+      if (!size) {
+        if (lower == upper) retval.push_back(to_string(lower));
+        else retval.push_back(to_string(lower) + "->" + to_string(upper));
+        return retval;
+      }
+      int j = 0;
+      for (int i = 0; i < size; i++) {
+        if (nums[i] != nums[j]) nums[++j] = nums[i];
+      }
+      size = j+1;
+      for (int i = 0; i < size; i++) {
+        if (nums[i] != ((i-1 >= 0) ? (long)nums[i-1]+1: lower)) {
+          retval.push_back(i-1 >= 0 ? to_string((long)nums[i-1]+1) : to_string(lower));
+          if ((nums[i]) - ((i-1 >= 0) ? nums[i-1] : (long)lower-1) > 2) {
+            retval.back() += ("->" + to_string(((long)nums[i]-1))); 
+          }
+        } 
+      }
+      if (nums[size-1] != upper) {
+        retval.push_back(to_string((long)nums[size-1]+1));
+        if (upper > nums[size-1] + 1) {
+          retval.back() += "->" + to_string(upper);
+        }
+      }
+      return retval;
+    }
+};

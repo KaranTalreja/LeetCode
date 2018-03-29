@@ -6,6 +6,45 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
+class Solution {
+  public:
+    ListNode* addCarry (ListNode* l, int carry) {
+      ListNode* retval = l;
+      if (!retval && carry) return new ListNode(carry);
+      while (carry) {
+        int temp = l->val + carry;
+        carry = temp / 10;
+        l->val = temp % 10;
+        if (!l->next && carry) {
+          l->next = new ListNode(carry);
+          break;
+        }
+        l = l->next;
+      }
+      return retval;
+    }
+
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+      int carry = 0;
+      ListNode* retval = l2;
+      ListNode* currSum = retval;
+      while (l1 && l2) {
+        int temp = l1->val + l2->val + carry;
+        currSum->val = temp % 10;
+        carry = temp / 10;
+        if (!l1->next || !l2->next) {
+          currSum->next = addCarry(l1->next ? l1->next : l2->next, carry);
+          break;
+        }
+        currSum = currSum->next;
+        l1 = l1->next;
+        l2 = l2->next;
+      }
+      return retval;
+    }
+};
+
 class Solution {
   public:
     void helper(ListNode* l1, ListNode* l2, ListNode*& currSum) {

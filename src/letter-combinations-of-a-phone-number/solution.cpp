@@ -1,5 +1,31 @@
 class Solution {
   public:
+    void DFS(string& digits, int start, string& curr, vector<string>& retval) {
+      if (start == digits.size()) {
+        retval.push_back(curr);
+        return;
+      }
+      static vector<string> options = {"","","abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+      for (auto o : options[digits[start] - '0']) {
+        char bk = curr[start];
+        curr[start] = o;
+        DFS(digits, start+1, curr, retval);
+        curr[start] = bk;
+      }
+    }
+
+    vector<string> letterCombinations(string digits) {
+      string curr(digits);
+      vector<string> retval;
+      int size = digits.size();
+      if (!size) return retval;
+      DFS(digits, 0, curr, retval);
+      return retval;
+    }
+};
+
+class Solution {
+  public:
     string mapping(char digit) {
       switch(digit) {
         case '2': return "abc";

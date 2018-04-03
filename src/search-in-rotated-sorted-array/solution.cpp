@@ -71,6 +71,42 @@ class Solution2 {
     }
 };
 
+class Solution3 {
+  public:
+
+    int findPivot(vector<int>& nums) {
+      int start = 0;
+      int end = nums.size()-1;
+      if (nums[start] < nums[end]) return start;
+      while (end - start > 1) {
+        int mid = start + (end - start)/2;            
+        if (nums[mid] > nums[start]) start = mid;
+        else end = mid;
+      }
+      return end;
+    }
+
+    int binarySearch (vector<int>& nums, int start, int end, int target) {
+      while (start <= end) {
+        int mid = start + (end - start)/2;
+        if (nums[mid] == target) return mid;
+        else if (nums[mid] > target) end = mid-1;
+        else start = mid+1;
+      }
+      return -1;
+    }
+
+    int search(vector<int>& nums, int target) {
+      int size = nums.size();
+      if (!size) return -1;
+      int idx = findPivot(nums);
+      int rc = binarySearch(nums, 0, idx, target);
+      if (rc != -1) return rc;
+      rc = binarySearch(nums, idx, size, target);
+      return rc;
+    }
+};
+
 int main() {
   vector<int> a = {1,2,3,4};
   Solution2 obj;

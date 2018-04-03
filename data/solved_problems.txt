@@ -242,3 +242,10 @@ https://leetcode.com/problems/first-missing-positive/
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 https://leetcode.com/problems/top-k-frequent-elements/
 https://leetcode.com/problems/search-for-a-range/
+https://leetcode.com/problems/meeting-rooms/
+https://leetcode.com/problems/meeting-rooms-ii/
+https://leetcode.com/problems/jump-game/
+https://leetcode.com/problems/unique-paths/
+https://leetcode.com/problems/coin-change/
+https://leetcode.com/problems/happy-number/
+https://leetcode.com/problems/longest-consecutive-sequence/

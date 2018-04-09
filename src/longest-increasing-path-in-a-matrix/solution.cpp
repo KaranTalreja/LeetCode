@@ -29,6 +29,44 @@ Special thanks to @dietpepsi for adding this problem and creating all test cases
 
 class Solution {
   public:
+    bool isValid(int r, int c, int& M, int& N, int& currVal, vector<vector<int>>& matrix) {
+      if (r < 0 || r >= M || c < 0 || c >= N) return false;
+      if (currVal >= matrix[r][c]) return false;
+      return true;
+    }
+
+    int helper(vector<vector<int>>& matrix, vector<vector<int>>& DP, int i, int j, int &M, int &N) {
+      if (DP[i][j] != INT_MIN) return DP[i][j];
+      static vector<vector<int>> options = {{0,1},{0,-1},{1,0},{-1,0}};
+      int retval = 0;
+      for (auto o : options) {
+        if (isValid(i+o[0], j+o[1], M, N, matrix[i][j], matrix)) {
+          int rc = helper(matrix, DP, i+o[0], j+o[1], M, N);
+          if (rc > retval) retval = rc;
+        }
+      }
+      DP[i][j] = retval + 1;
+      return DP[i][j];
+    }
+
+    int longestIncreasingPath(vector<vector<int>>& matrix) {
+      int M = matrix.size();
+      if (!M) return 0;
+      int N = matrix[0].size();
+      int retval = INT_MIN;
+      vector<vector<int>> DP(M, vector<int>(N, INT_MIN));
+      for (int i = 0; i < M; i++) {
+        for (int j = 0; j < N; j++) {
+          int rc = helper(matrix, DP, i, j, M, N);
+          if (retval < rc) retval = rc;
+        }
+      }
+      return retval;
+    }
+};
+
+class Solution {
+  public:
 
     bool isValid(int r , int c, int& row, int& col, int& curr, int level, vector<vector<int>>& matrix, vector<vector<int>>& DP) {
       if (r < 0 || r >= row || c < 0 || c >= col) return false;

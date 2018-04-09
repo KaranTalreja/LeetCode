@@ -249,3 +249,11 @@ https://leetcode.com/problems/unique-paths/
 https://leetcode.com/problems/coin-change/
 https://leetcode.com/problems/happy-number/
 https://leetcode.com/problems/longest-consecutive-sequence/
+https://leetcode.com/problems/surrounded-regions/
+https://leetcode.com/problems/binary-tree-maximum-path-sum/
+https://leetcode.com/problems/friend-circles/
+https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+https://leetcode.com/problems/wildcard-matching/
+https://leetcode.com/problems/range-sum-query-immutable/
+https://leetcode.com/problems/range-sum-query-2d-immutable/
+https://leetcode.com/problems/largest-number/

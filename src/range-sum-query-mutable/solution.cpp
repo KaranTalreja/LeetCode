@@ -53,6 +53,56 @@ class NumArray {
       return queryTree(j+1) - queryTree(i);
     }
 };
+class NumArray {
+  public:
+    int N;
+    int size;
+    vector<int> tree;
+    void helperInit(vector<int>& nums, int start, int end, int parent) {
+      if (end - start == 1) {
+        tree[parent] = nums[start];
+        return;
+      }
+      int mid = start + (end-start)/2;
+      helperInit(nums, start, mid, 2*parent+1);
+      helperInit(nums, mid, end, 2*parent+2);
+      tree[parent] = tree[2*parent+1] + tree[2*parent+2];
+    }
+
+    int helperSum(int i, int j, int start, int end, int parent) {
+      if (j < start || i > end-1) return 0;
+      if (i <= start && j >= end-1) return tree[parent];
+      int mid = start + (end-start)/2;
+      return helperSum(i, j, start, mid, 2*parent+1) + helperSum(i, j, mid, end, 2*parent+2);
+    }
+
+    void helperUpdate(int i, int start, int end, int parent, int val) {
+      if (end - start == 1) {
+        tree[parent] = val;
+        return;
+      }
+      int mid = start + (end - start)/2;
+      if (i < mid) helperUpdate(i, start, mid, 2*parent+1, val);
+      else helperUpdate(i, mid, end, 2*parent+2, val);
+      tree[parent] = tree[2*parent+1] + tree[2*parent+2];
+    }
+
+    NumArray(vector<int> nums) : N(nums.size()), size(2*pow(2, ceil(log2(N)))-1), tree(N > 0 ? size : 1, 0) {
+      if (N > 0)  helperInit(nums, 0, N, 0);
+      // for (auto x : tree) cout << x << " ";
+      // cout << endl;
+    }
+
+    void update(int i, int val) {
+      helperUpdate(i, 0, N, 0, val);
+      // for (auto x : tree) cout << x << " ";
+      // cout << endl;
+    }
+
+    int sumRange(int i, int j) {
+      return helperSum(i, j, 0, N, 0);
+    }
+};
 
 /**
  * Your NumArray object will be instantiated and called as such:
